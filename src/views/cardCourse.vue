@@ -12,7 +12,7 @@ const data_course = course_store.courseList
 </script>
 <template>
 
-<div class="grid-card-course" style="text-transform:unset ;">
+<div class="grid-card-course" style="text-transform:unset; margin-left: 10px;">
   <div class="course-card" v-for="(course, index) in data_course" :key="index">
     <img class="card__image" :src="course.img">
       <div class="card__content">
@@ -194,6 +194,7 @@ const data_course = course_store.courseList
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 30px ;
   justify-content: center;
+  
 }
 
 @media screen and (max-width: 1400px) {
