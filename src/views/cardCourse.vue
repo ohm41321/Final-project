@@ -192,7 +192,7 @@ const data_course = course_store.courseList
 .grid-card-course{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 55px ;
+  grid-gap: 30px ;
   justify-content: center;
 }
 
