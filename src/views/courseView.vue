@@ -8,7 +8,7 @@
   </span>
   </button>
     </RouterLink>
-        <h1>COURSE {{ course.name }}</h1>
+        <h1 class="title-name-courseview">COURSE {{ course.name }}</h1>
     </div>
     <div class="contain">
       <h4>{{ course.detail }}</h4>
@@ -39,5 +39,8 @@ const course = computed(() => {
 <style>
 .contain{
   margin: 30px 100px;
+}
+.title-name-courseview{
+  text-align: center;
 }
 </style>
