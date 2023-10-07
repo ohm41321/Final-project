@@ -26,7 +26,7 @@
             <h4 class="datail-text-preview">"Unleash your creativity with our Drawing Courses!"</h4>
         </div>
         <div class="pic-preview">
-            <img class="pic-res"  src="https://scontent.fbkk12-1.fna.fbcdn.net/v/t1.15752-9/385495616_874722520668934_8226374868961863044_n.png?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeEwn67pszOyHwh4AfT2xDvp0aqJJYZvseTRqoklhm-x5OLFS7Hge0OctC-sWssKez44NMEHARCI2IyXN-6UgzUs&_nc_ohc=0XOqFfqx50YAX9Apsor&_nc_ht=scontent.fbkk12-1.fna&_nc_e2o=s&oh=03_AdTSFDmOeStJ_sy0ft5wnCKIiolKQ6-hc4_8bpgTJrJ6Mw&oe=6548FCBA" width="450" height="600" style="object-fit: cover;">
+            <img class="pic-res"  src="https://scontent.fbkk12-1.fna.fbcdn.net/v/t1.15752-9/387563060_194669096981130_9094201529893012578_n.png?_nc_cat=102&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeF92bj0h4eTb4crD4xh6WZtF2Z-bTJlmugXZn5tMmWa6Bf-LSpsgzr1PTAL9AU_M8aYpO1Ekt8IbB5RjjO72_X4&_nc_ohc=b_h7Q2lXYJ0AX-46YUJ&_nc_ht=scontent.fbkk12-1.fna&_nc_e2o=s&oh=03_AdRUavb7mbaeIu81fjL-kzHAItMjD4yJnZ9gajP330xxMQ&oe=65490996" width="450" height="600" style="object-fit: cover;">
         </div>
     </div> <!-- https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4832572f-99af-4762-8892-010000fd8707/de1v51g-2ebeb7e7-0055-4972-9c31-c071d768b520.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQ4MzI1NzJmLTk5YWYtNDc2Mi04ODkyLTAxMDAwMGZkODcwN1wvZGUxdjUxZy0yZWJlYjdlNy0wMDU1LTQ5NzItOWMzMS1jMDcxZDc2OGI1MjAucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.IzPCeRvKlcxfHpizYEvkOyUZaZuygjYILizCm-9mLAw -->
     <hr>
