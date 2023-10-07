@@ -1,15 +1,15 @@
 <script setup>
-import { dataStore } from '../stores/data';
+//import { dataStore } from '../stores/data';
 
-const course_store = dataStore()
-const data_course = course_store.courseList
+//const course_store = dataStore()
+// const data_course = course_store.courseList
 
 
 </script>
 <template>
 <div class="container px-1 py-4" id="icon-grid">
     <h2 class="pb-1 border-bottom" style="text-align: center;">CATEGORY</h2>
-    <div class="display-grid">
+    <!-- <div class="display-grid">
     <div class="row row-cols-1 row-cols-sm-1" style="margin-top: 50px; margin: 10px 10px;" v-for="(course, index) in data_course" :key="index">
       <div class="col d-flex">
         <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"></svg>
@@ -18,8 +18,8 @@ const data_course = course_store.courseList
           <p style="margin-top: 20px; text-align: left;">{{ course.who_study }}</p>
           </div>
         </div>
-      </div>
-  </div>
+      </div> 
+  </div>-->
 </div>
 </template>
 <style>

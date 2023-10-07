@@ -11,7 +11,7 @@ const data_course = course_store.courseList
 
 </script>
 <template>
-
+<preview/>
 <div class="grid-card-course" style="text-transform:unset; margin-left: 10px;">
   <div class="course-card" v-for="(course, index) in data_course" :key="index">
     <img class="card__image" :src="course.img">
@@ -41,7 +41,6 @@ const data_course = course_store.courseList
   </div>
   </div>
 </div>
-<preview/>
 </template>
 
 <style>

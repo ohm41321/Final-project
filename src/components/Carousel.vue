@@ -10,7 +10,7 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="https://media.discordapp.net/attachments/1003582679465345034/1159104191013331024/image.png?ex=652fcee6&is=651d59e6&hm=806745c24a7cd14801725668be6c5274002d7c974490f1e283a3d611dcaf42c5&=&width=1189&height=661" style="width: 100%; height: auto; object-fit: fill; object-position: center;">
+        <img src="https://media.discordapp.net/attachments/1003582679465345034/1159912510548357280/slide_PJ_.jpg?ex=6532bfb4&is=65204ab4&hm=0e92c179527a2465d19ebe007d29adb5c02eebc24210003f8aa72a95dc78c9ce&=&width=1175&height=661" style="width: 100%; height: auto; object-fit: fill; object-position: center;">
         <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
         <div class="container">
           <div class="carousel-caption text-start">

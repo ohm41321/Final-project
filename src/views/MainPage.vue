@@ -6,7 +6,8 @@ import Carousel from '@/components/Carousel.vue'
 <template>
     <Carousel/>
     <div class="container">
-      <h1 align="center">Welcome</h1> <br><br>
+      <h1 align="center">Welcome</h1> <br>
+      <h3 align="center" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">sample text</h3>
       <ShowCase/>
       <div class="box">
       <cardCourse/> <br>
@@ -16,7 +17,7 @@ import Carousel from '@/components/Carousel.vue'
     </div>
     </template>
 <style>
-.box{
+.bo{
   padding: 20px;
   justify-content: space-between;
 }

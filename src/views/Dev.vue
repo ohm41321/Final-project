@@ -19,7 +19,7 @@ const dev_data = data_store.data_dev
   </span>
   </button>
     </RouterLink>
-    <h1 style="font-weight:bold ; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-decoration: underline;">WHO IS DEV</h1>
+    <h1 class="whodev" style="font-weight:bold ; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-decoration: underline;">WHO IS DEV</h1>
   </div>
 <div class="grid-container">
     <div class="" v-for="(dev, index) in dev_data" :key="index">
@@ -46,7 +46,7 @@ const dev_data = data_store.data_dev
   text-align: center;
   padding: 90px;
 }
-h1{
+.whodev{
   text-align: center;
 }
 .fw-normal{
