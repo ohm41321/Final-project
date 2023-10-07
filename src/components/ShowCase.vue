@@ -8,7 +8,7 @@
 </script>
 <template>
 <div class="container px-1 py-4" id="icon-grid">
-    <h2 class="pb-1 border-bottom" style="text-align: center;">CATEGORY</h2>
+    <h2 class="pb-1 border-bottom" style="text-align: center; text-transform: uppercase; ">Course Categories</h2>
     <!-- <div class="display-grid">
     <div class="row row-cols-1 row-cols-sm-1" style="margin-top: 50px; margin: 10px 10px;" v-for="(course, index) in data_course" :key="index">
       <div class="col d-flex">

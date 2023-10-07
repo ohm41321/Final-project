@@ -14,18 +14,18 @@
         <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
         <div class="container">
           <div class="carousel-caption text-start">
-            <h1>Many Course</h1>
-            <p class="opacity-75">Some representative placeholder content for the first slide of the carousel.</p>   
+            <h1>Welcome to Many Course</h1>
+            <p class="opacity-75">Discover the most interesting courses for you.</p>   
           </div>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="https://media.discordapp.net/attachments/1003582679465345034/1159104299788423228/image.png?ex=652fcf00&is=651d5a00&hm=095944935f73dbb86c4d3592421fb04f9c3efa293002d2722908f4a9b7afa73c&=&width=1173&height=660" style="width: 100%; height:auto; object-fit: fill; object-position: center">
+        <img src="https://media.discordapp.net/attachments/1003582679465345034/1159913417210085478/slide_PJ_.jpg?ex=6532c08c&is=65204b8c&hm=10bfd4fed8e7b9a47fb6391457201f93b9cd5d73d8b4f1bdd518e03f74a3c0b8&=&width=1175&height=661" style="width: 100%; height:auto; object-fit: fill; object-position: center">
         <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
         <div class="container">
           <div class="carousel-caption">
-            <h1>Another example headline.</h1>
-            <p>Sample Text</p>
+            <h1>Let us take care of your future.</h1>
+            <p>Develop your skills and create a better future.</p>
           </div>
         </div>
       </div>
@@ -34,8 +34,8 @@
         <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
         <div class="container">
           <div class="carousel-caption text-end">
-            <h1>One more for good measure.</h1>
-            <p>Some representative placeholder content for the third slide of this carousel.</p>
+            <h1>Awaken your knowledge.</h1>
+            <p>Open up a limitless learning experience.</p>
           </div>
         </div>
       </div>

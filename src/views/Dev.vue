@@ -32,6 +32,7 @@ const dev_data = data_store.data_dev
         </button>
       </div>   
     </div>
+    <h4 style="margin: auto 0px;">Thank For Support Us</h4>
 </div>
 </template>
 <style>
