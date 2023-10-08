@@ -1,44 +1,44 @@
 <template>
 <div>
     <div class="grid-preview">
-        <div class="text-preview">
+        <div class="text-preview-left">
             <h1 class="title-name-preview">Music Class</h1>
             <h4 class="datail-text-preview">"Unlock your musical potential with our Music Courses!"</h4>
         </div>
-        <div class="pic-preview">
-            <img class="pic-res" src="https://www.absoluteanime.com/k-on/yui.gif" width="500" height="620" style="object-fit: cover;" >
+        <div class="pic-preview-right">
+            <img class="pic-res-right" src="https://www.absoluteanime.com/k-on/yui.gif" width="500" height="620" style="object-fit: cover;" >
         </div>
-    </div> 
+    </div> <br>
     <hr class="line">
     <div class="grid-preview">
         <div class="pic-preview">
-            <img class="pic-res"  src="https://scontent.fbkk13-3.fna.fbcdn.net/v/t1.15752-9/370254839_626765052964983_907053778402969971_n.png?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeEbUcLiISwxZH7_xMeNBvriuRFmVAngicS5EWZUCeCJxMghvzrLKTlJVj7Qc-9c5lAyfb3eoWHu9yhMnXHfSqTi&_nc_ohc=tgpu8OnsyFMAX_WW0Pi&_nc_ht=scontent.fbkk13-3.fna&_nc_e2o=s&oh=03_AdTUBeU__4XcvEBJsncamiCQZXUjOok_3JXE6CZ3uBTU_Q&oe=654A08C6" width="500" height="620" style="object-fit: cover;">
+            <img class="pic-res-left"  src="https://scontent.fbkk13-3.fna.fbcdn.net/v/t1.15752-9/370254839_626765052964983_907053778402969971_n.png?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeEbUcLiISwxZH7_xMeNBvriuRFmVAngicS5EWZUCeCJxMghvzrLKTlJVj7Qc-9c5lAyfb3eoWHu9yhMnXHfSqTi&_nc_ohc=tgpu8OnsyFMAX_WW0Pi&_nc_ht=scontent.fbkk13-3.fna&_nc_e2o=s&oh=03_AdTUBeU__4XcvEBJsncamiCQZXUjOok_3JXE6CZ3uBTU_Q&oe=654A08C6" width="500" height="620" style="object-fit: cover;">
         </div>
-        <div class="text-preview">
+        <div class="text-preview-right">
             <h1 class="title-name-preview">Cooking Class</h1>
             <h4 class="datail-text-preview">"Discover the art of culinary delights with our Cooking Courses!"</h4>
         </div>
-    </div>
+    </div> <br>
     <hr class="line">
     <div class="grid-preview">
-        <div class="text-preview">
+        <div class="text-preview-left">
             <h1 class="title-name-preview">Drawing Class</h1>
             <h4 class="datail-text-preview">"Unleash your creativity with our Drawing Courses!"</h4>
         </div>
         <div class="pic-preview">
-            <img class="pic-res"  src="https://scontent.fbkk12-1.fna.fbcdn.net/v/t1.15752-9/387563060_194669096981130_9094201529893012578_n.png?_nc_cat=102&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeF92bj0h4eTb4crD4xh6WZtF2Z-bTJlmugXZn5tMmWa6Bf-LSpsgzr1PTAL9AU_M8aYpO1Ekt8IbB5RjjO72_X4&_nc_ohc=b_h7Q2lXYJ0AX-46YUJ&_nc_ht=scontent.fbkk12-1.fna&_nc_e2o=s&oh=03_AdRUavb7mbaeIu81fjL-kzHAItMjD4yJnZ9gajP330xxMQ&oe=65490996" width="450" height="620" style="object-fit: cover;">
+            <img class="pic-res-right"  src="https://scontent.fbkk12-1.fna.fbcdn.net/v/t1.15752-9/387563060_194669096981130_9094201529893012578_n.png?_nc_cat=102&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeF92bj0h4eTb4crD4xh6WZtF2Z-bTJlmugXZn5tMmWa6Bf-LSpsgzr1PTAL9AU_M8aYpO1Ekt8IbB5RjjO72_X4&_nc_ohc=b_h7Q2lXYJ0AX-46YUJ&_nc_ht=scontent.fbkk12-1.fna&_nc_e2o=s&oh=03_AdRUavb7mbaeIu81fjL-kzHAItMjD4yJnZ9gajP330xxMQ&oe=65490996" width="450" height="620" style="object-fit: cover;">
         </div>
-    </div> <!-- https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4832572f-99af-4762-8892-010000fd8707/de1v51g-2ebeb7e7-0055-4972-9c31-c071d768b520.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQ4MzI1NzJmLTk5YWYtNDc2Mi04ODkyLTAxMDAwMGZkODcwN1wvZGUxdjUxZy0yZWJlYjdlNy0wMDU1LTQ5NzItOWMzMS1jMDcxZDc2OGI1MjAucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.IzPCeRvKlcxfHpizYEvkOyUZaZuygjYILizCm-9mLAw -->
+    </div> <br> <!-- https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4832572f-99af-4762-8892-010000fd8707/de1v51g-2ebeb7e7-0055-4972-9c31-c071d768b520.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQ4MzI1NzJmLTk5YWYtNDc2Mi04ODkyLTAxMDAwMGZkODcwN1wvZGUxdjUxZy0yZWJlYjdlNy0wMDU1LTQ5NzItOWMzMS1jMDcxZDc2OGI1MjAucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.IzPCeRvKlcxfHpizYEvkOyUZaZuygjYILizCm-9mLAw -->
     <hr class="line">
     <div class="grid-preview">
         <div class="pic-preview">
-            <img class="pic-res" src="https://scontent.fbkk12-1.fna.fbcdn.net/v/t1.15752-9/387329606_708111248009036_3920970528619625927_n.png?_nc_cat=111&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeElvxbui2J3fkzMKhDC6J1FWX-brOYqPuFZf5us5io-4ch2Z12atigcwUUSstWDVeL0LMBEAcMD1UrjUwKJiqZc&_nc_ohc=qjzi4IaH1GYAX8c5-wc&_nc_ht=scontent.fbkk12-1.fna&_nc_e2o=s&oh=03_AdQRUDfAXK0RQ_MSSaUDRyOhgy1KBbYryxqvvPPW6zyheg&oe=654914EE" width="500" height="550" style="object-fit: cover;">
+            <img class="pic-res-left" src="https://scontent.fbkk12-1.fna.fbcdn.net/v/t1.15752-9/387329606_708111248009036_3920970528619625927_n.png?_nc_cat=111&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeElvxbui2J3fkzMKhDC6J1FWX-brOYqPuFZf5us5io-4ch2Z12atigcwUUSstWDVeL0LMBEAcMD1UrjUwKJiqZc&_nc_ohc=qjzi4IaH1GYAX8c5-wc&_nc_ht=scontent.fbkk12-1.fna&_nc_e2o=s&oh=03_AdQRUDfAXK0RQ_MSSaUDRyOhgy1KBbYryxqvvPPW6zyheg&oe=654914EE" width="500" height="550" style="object-fit: cover;">
         </div>
-        <div class="text-preview">
+        <div class="text-preview-right">
             <h1 class="title-name-preview">Exercise Class</h1>
             <h4 class="datail-text-preview">"Get active and stay healthy with our Exercise Courses!"</h4>
         </div>
-    </div>
+    </div> <br>
     <hr class="line">
 </div> <br> 
 </template>
@@ -46,26 +46,37 @@
 
 </script>
 <style>
-.pic-res{
+.pic-res-left{
     transition: 1s;
-    margin: 0 10rem;
+    margin-right: -5rem;
+
+}
+.pic-res-right{
+    transition: 1s;
+    margin-left: -5rem;
 }
 .grid-preview{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    justify-content: space-between;
-    transition: 1.5s;
-    transform-origin: center;
+    justify-content: center;
+    justify-items:  center;
+    transition: 1.6s;
     margin: 2rem -10rem;
-
 }
 .grid-preview:hover{
-    transform: scale(1.13);
+    transform: scale(1.25);
 }
-.text-preview{
+.text-preview-left{
     text-align: center;
-    margin: auto;
+    margin: auto 0;
+    margin-right: -15rem;
 }
+.text-preview-right{
+    text-align: center;
+    margin: auto 0;
+    margin-left: -15rem;
+}
+
 @media screen and (max-width: 1690px) {
     .pic-res{
     transition: 1s;

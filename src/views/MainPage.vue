@@ -30,7 +30,7 @@ import('../assets/font.css')
     </template>
 <style>
 .line{
-  border: 3.5px solid #000000;
+  border: 1px solid #000000;
 }
 .bo{
   padding: 20px;
