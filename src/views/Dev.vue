@@ -11,15 +11,15 @@ const dev_data = data_store.data_dev
 
 </script>
 <template>
-  <div style="margin-top: 0px; margin-bottom: -40px; color:#ffa601;">
+  <div style="margin-top: 0px; margin-bottom: -40px; color:#ffa601; display: flex; justify-content: space-between;">
     <RouterLink to="/">
-      <button class="ui-btn">
+      <button class="ui-btn" style="margin-right: -7rem;">
   <span style="text-decoration: none;">
     Back
   </span>
   </button>
     </RouterLink>
-    <h1 class="whodev" style="font-weight:bold ; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-decoration: underline;">WHO IS DEV</h1>
+    <h1 class="whodev">WHO IS DEV</h1>
   </div>
 <div class="grid-container">
     <div class="" v-for="(dev, index) in dev_data" :key="index">
@@ -32,7 +32,7 @@ const dev_data = data_store.data_dev
         </button>
       </div>   
     </div>
-    <h4 style="margin: auto 0px;">Thank For Support Us</h4>
+    <h4 style="margin: auto 0px;">Thank for your Support </h4>
 </div>
 </template>
 <style>
@@ -49,13 +49,16 @@ const dev_data = data_store.data_dev
 }
 .whodev{
   text-align: center;
+  font-weight:bold ; 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+  text-decoration: underline;
+  margin: 0 auto;
 }
 .fw-normal{
     margin-top: 20px;
 }
 
 .col{
-
   text-align: center;
   margin: 20px ; 
   display: flex;
@@ -78,6 +81,11 @@ const dev_data = data_store.data_dev
   .fw-normal{
     text-align: center;
     font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .whodev{
+    margin-left: 9rem ;
   }
 }
 

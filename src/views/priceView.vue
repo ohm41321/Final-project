@@ -18,7 +18,7 @@ const data_package = data_store.packageList
   </button>
     </RouterLink>
 </div>
-<h1 style="font-family: monospace; text-transform: uppercase;">Package</h1>
+<h1 align="center" style="font-family: monospace; text-transform: uppercase;">Package</h1>
 <div class="grid-price">
 <div class="pack-container" v-for="(price, index) in data_package" :key="index">
     <div class="header">
@@ -26,7 +26,7 @@ const data_package = data_store.packageList
         Starter
       </p>
       <div class="price-container">
-        <span>฿</span>{{price.name}}/{{ price.day }}
+        <span>฿</span>{{price.price}}/{{ price.day }}
         <span>day</span>
       </div>
     </div>

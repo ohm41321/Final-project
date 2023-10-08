@@ -29,6 +29,9 @@ import('../assets/font.css')
     </div>
     </template>
 <style>
+.line{
+  border: 3.5px solid #000000;
+}
 .bo{
   padding: 20px;
   justify-content: space-between;
@@ -56,4 +59,5 @@ import('../assets/font.css')
    margin: auto 1rem;
   }
 }
+
 </style>
