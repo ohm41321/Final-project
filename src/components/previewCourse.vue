@@ -64,7 +64,7 @@
     margin: 2rem -10rem;
 }
 .grid-preview:hover{
-    transform: scale(1.25);
+    transform: scale(1.15);
 }
 .text-preview-left{
     text-align: center;
@@ -78,15 +78,30 @@
 }
 
 @media screen and (max-width: 1690px) {
-    .pic-res{
+    .pic-res-left{
     transition: 1s;
-    margin: 0 5rem;
+    margin: 0 2rem;
+}
+
+.pic-res-right{
+    transition: 1s;
+    margin: 0 1.5rem;
 }
 .grid-preview{
     margin: 2rem -3rem;
 }
 .grid-preview:hover{
     transform: scale(1.125);
+}
+.text-preview-left{
+    text-align: center;
+    margin: auto 0;
+    margin-right: -10rem;
+}
+.text-preview-right{
+    text-align: center;
+    margin: auto 0;
+    margin-left: -10rem;
 }
 }
 @media screen and (max-width: 1100px) {
@@ -96,10 +111,26 @@
   .grid-preview:hover{
     transform: scale(1.1);
     }
-    .pic-res{
+    .pic-res-left{
+   object-fit: cover;
    width: 80%;
    height: 100%;
     }
+    .pic-res-right{
+   object-fit: cover;
+   width: 80%;
+   height: 100%;
+    }
+    .text-preview-left{
+    text-align: center;
+    margin: auto 0;
+    margin-right: auto;
+}
+.text-preview-right{
+    text-align: center;
+    margin: auto 0;
+    margin-left: auto;
+}
 }
 @media screen and (max-width: 1300px) {
 .column{
@@ -110,7 +141,12 @@
     }
 }
 @media screen and (max-width: 1000px) {
-    .pic-res{
+    .pic-res-left{
+   object-fit: cover;
+   width: 80%;
+   height: 100%;
+    }
+    .pic-res-right{
    object-fit: cover;
    width: 80%;
    height: 100%;
