@@ -2,7 +2,7 @@
 import { RouterLink } from 'vue-router';
 </script>
 <template>
-<div style="margin: 6.5rem auto; background-color:#212121;">
+<div class="navbar-ct" style="background-color:#212121;">
     <header class="fixed-header d-flex flex-wrap justify-content-center py-2 mb-4">
       <!--The Logo, Name on Header-->
       <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none" style="margin-left: 40px;">
@@ -36,6 +36,9 @@ import { RouterLink } from 'vue-router';
 
 <!--Style of Header, Button-->
 <style>
+.navbar-ct{
+  margin: 6.5rem auto;
+}
 .fixed-header{
   position: fixed;
   top: 0;
@@ -45,15 +48,21 @@ import { RouterLink } from 'vue-router';
   z-index: 1000;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 560px) {
   .fs-4{
     margin-right: 200px;
   }
+  .navbar-ct{
+  margin: 12.2rem auto;
+}
 }
 @media screen and (max-width: 445px) {
   .fs-4{
     margin-right: 100px;
   }
+  .navbar-ct{
+  margin: 12.2rem auto;
+}
 }
 
 /*  */
