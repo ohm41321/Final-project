@@ -3,9 +3,9 @@
 
 </script>
 <template>
-  <div class="ft">
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-    <div class="col-md-4 d-flex align-items-center">
+  <div class="ft"><hr>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+    <div class="col-md-4 d-flex align-items-center"> 
       <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
       <!-- logo brand footer
       
@@ -19,8 +19,6 @@
       <li class="ms-3"><a class="" href="#"><svg class="bi" width="24" height="24"></svg>sample</a></li>
       <li class="ms-3"><a class="" href="#"><svg class="bi" width="24" height="24"></svg>sample</a></li>
       <li class="ms-3"><a class="bt-footer-top-page" href="#">top of page</a></li>
-
-
     </ul>
   </footer>
   </div>
@@ -29,7 +27,7 @@
 
 .ft{
   margin: auto 30px;
-  margin-bottom: -1.5rem;
+  margin-bottom: -3rem;
 }
 /* bt-footer */
 .bt-footer-top-page {

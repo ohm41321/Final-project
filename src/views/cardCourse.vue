@@ -139,10 +139,10 @@ const data_course = course_store.courseList
 }
 
 .course-card::before {
-  content: "SALE !";
+  content: "ON SALE!";
   position: absolute;
-  width: 75px;
-  height: 75px;
+  width: 70px;
+  height: 70px;
   top: 35%;
   right: 2px;
   display: flex;
@@ -151,7 +151,8 @@ const data_course = course_store.courseList
   border-radius: 50%;
   background-color: #ef476f;
   color: aliceblue;
-  font-weight: 800;
+  font-weight: 600;
+  font-size: 13px;
   transition: all .5s ease;
 }
 
@@ -198,7 +199,6 @@ const data_course = course_store.courseList
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 30px ;
   justify-content: center;
-  
 }
 
 @media screen and (max-width: 1400px) {

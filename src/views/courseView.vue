@@ -8,18 +8,22 @@
   </span>
   </button>
     </RouterLink>
-    <h1 class="anima-title" style="text-align:right; text-transform: uppercase; margin: 8px auto;">about course</h1>
-  </div>
+    <h1 class="anima-title" style="text-align:right; text-transform: uppercase; margin: 10px auto;">about course</h1>
+  </div> <hr style=" border: 0.5px  #000000; border-style: solid;">
 <div class="setup">
     <div class="pic-course-view">
-      <img class="pic-res-course-view" src="" height="500" width="750">
+      <img class="pic-res-course-view" :src="course.img" height="500" width="750" style="border-radius: 50px;">
     </div>  
     <div class="contain-course-view">
       <h2 class="title-name-courseview">{{ course.name }} Class</h2>
-      <h5 style="font-weight: 600;">รายละเอียด:</h5>
-      <h5>{{ course.detail }}</h5>
-      <h5 style="font-weight: 600;">ประโยชน์ที่ผู้เรียนจะได้รับ:</h5>
-      <h5>{{ course.wht_earn }}</h5>
+      <h5 class="title-of-detail">รายละเอียด:</h5>
+      <h5>{{ course.detail }}</h5> <br>
+      <h5 class="title-of-detail">ประโยชน์ที่ผู้เรียนจะได้รับ:</h5>
+      <h5>{{ course.wht_earn }}</h5> <br>
+      <h5 class="title-of-detail">ใครควรเรียนคอร์สออนไลน์นี้:</h5>
+      <h5>{{ course.who_study }}</h5> <br>
+      <h5 class="title-of-detail">ผู้เรียนต้องมีความรู้อะไรมาก่อน:</h5>
+      <h5>{{ course.knowledge }}</h5>
     </div>
 </div>   
 
@@ -48,7 +52,9 @@ import '../assets/font.css'
 </script>
 
 <style>
-
+.title-of-detail{
+  font-weight: 600;
+}
 *{
   font-family: 'IBM Plex Sans Thai', sans-serif;
 }
@@ -57,7 +63,6 @@ import '../assets/font.css'
   animation-name: moving-text 1s 1s;
 }
 .setup{
-  background-color: aqua;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: 3rem;
@@ -66,7 +71,6 @@ import '../assets/font.css'
 }
 .contain-course-view{
   padding: 20px;
-  background-color: antiquewhite;
   margin: auto 0;
 }
 .title-name-courseview{

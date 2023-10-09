@@ -30,7 +30,7 @@ export const dataStore = defineStore('course', () => {
     knowledge:'ผู้เรียนไม่จำเป็นต้องมีความรู้อะไรมาก่อนในคอร์สนี้ เนื่องจากเป็นคอร์สเริ่มต้นที่เหมาะสำหรับผู้ที่ไม่มีพื้นฐานหรือความรู้ด้านศิลปะมาก่อน คุณจะได้รับคำแนะนำและการสอนเบื้องต้นจากคอร์สนี้ เพียงแค่คุณมีความสนใจและความกระตือรือร้นในการเรียนรู้และพัฒนาทักษะทางศิลปะพอแล้ว',
     caption:'',
     },{ 
-    id: 4, name: 'Exercise Programp',
+    id: 4, name: 'Exercise Program',
     img: "",
     detail:'การออกกำลังกายเบื้องต้นที่สามารถทำที่บ้านการฝึกหรือยกเลิกแรงกล้างสตรีทไปในการออกกำลังกายการเพิ่มความยืดหยุ่นและความแข็งแกร่งของกล้ามเนื้อ',
     wht_earn:'เพิ้อให้ผู้เรียนเข้าใจพื้นฐานของการออกกำลังกายที่ถูกต้อง เพื่มขีดจำกัดของร่างกาย เพื่มภูมิคุ้มกันให้เเข็งเเรงเเละสามารถต่อยอดให้กับผู้ที่สนใจจะเป็นนักกีฬา',
@@ -95,12 +95,12 @@ export const dataStore = defineStore('course', () => {
           text:''
          },{
           id:2,name:'Chaiyut Suntharote',
-          img:'https://scontent.fbkk13-1.fna.fbcdn.net/v/t39.30808-1/365298108_4223788944514137_6778048245465402849_n.jpg?stp=dst-jpg_p100x100&_nc_cat=106&ccb=1-7&_nc_sid=fe8171&_nc_eui2=AeGDycP-0gBz9yKfdYrdjwKyy6XULzSrV6XLpdQvNKtXpdKI7y_g0d0Lh-1kNYeAQfuJhNbM8bmrtwnkw-vfmCsX&_nc_ohc=b3TFiebIsQcAX_8RP4_&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fbkk13-1.fna&_nc_e2o=s&oh=00_AfCsGbeFGhnGY_9tAlbtPyY-Nccy86WtEUnCzdvhQ55HSQ&oe=65255E4C',
+          img:'',
           url:'https://poplme.co/GU4bLcu6/dash',
           text:''
          },{
           id:3,name:'',
-          img:'https://scontent.fbkk13-3.fna.fbcdn.net/v/t39.30808-1/383981787_3609610726032141_3733299625779510283_n.jpg?stp=dst-jpg_p100x100&_nc_cat=100&ccb=1-7&_nc_sid=fe8171&_nc_eui2=AeHHl--sEUJLPjskenPfYhrJlPQjDSylcF6U9CMNLKVwXmWl4tgV5zxVKv_SVGR0qNWkTmX0Yt-t-puchSM7RmBw&_nc_ohc=A07dxUFeg5wAX-sUAdp&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fbkk13-3.fna&_nc_e2o=s&oh=00_AfCZz8XCSSboGEEdVpKlPQI5YxRBcWjZ0LvcPABkXRFuOQ&oe=6526BB60',
+          img:'',
           url:'https://poplme.co/hash/FxjbYBMb/1/s',
           text:''
          },{
@@ -116,6 +116,8 @@ export const dataStore = defineStore('course', () => {
          },
       ])
 
+
+    
 
     return { courseList, prof_course, packageList, data_dev }
 

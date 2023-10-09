@@ -28,7 +28,7 @@ const dev_data = data_store.data_dev
         <h2 class="fw-normal">{{ dev.name }}</h2>
         <p>{{ dev.text }}</p>
         <button class="bt-contact" @click="openLink(dev.url)">
-            <span>Contact Me &raquo;</span>
+            <span>Contact &raquo;</span>
         </button>
       </div>   
     </div>
