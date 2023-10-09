@@ -117,7 +117,6 @@ export const dataStore = defineStore('course', () => {
       ])
 
 
-    
 
     return { courseList, prof_course, packageList, data_dev }
 

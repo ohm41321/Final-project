@@ -44,7 +44,7 @@ const data_course = course_store.courseList
   </div>
   </div>
 </div>
-</div>
+</div> <br> <br>
 </template>
 
 <style>

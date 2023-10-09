@@ -1,6 +1,12 @@
 <script setup>
 import { RouterLink } from 'vue-router';
 import { dataStore } from '../stores/data';
+import { alertStore } from '../stores/alert';
+
+import '../assets/font.css'
+
+const alert_store = alertStore()
+const alert_fn = alert_store.alert_buy
 
 const data_store = dataStore()
 const data_package = data_store.packageList
@@ -9,195 +15,142 @@ const data_package = data_store.packageList
 
 <template>
 
-<div style="margin-top: 0px; margin-bottom: -0px; color:#ffa601;">
+  <div style="display: flex;">
   <RouterLink to="/">
-      <button class="ui-btn">
+      <button class="ui-btn" style="margin-right: -5rem;">
   <span>
     Back
   </span>
   </button>
     </RouterLink>
-</div>
-<h1 align="center" style="font-family: monospace; text-transform: uppercase;">Package</h1>
-<div class="grid-price">
-<div class="pack-container" v-for="(price, index) in data_package" :key="index">
-    <div class="header">
-      <p class="title-price">
-        Starter
-      </p>
-      <div class="price-container">
-        <span>฿</span>{{price.price}}/{{ price.day }}
-        <span>day</span>
-      </div>
-    </div>
-    <div>
-      <ul class="lists">
-        <li class="list">
-          <span>
-            <svg aria-hidden="true" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4.5 12.75l6 6 9-13.5" stroke-linejoin="round" stroke-linecap="round"></path>
-            </svg>
-          </span>
-          <p>
-            2 team members
-          </p>
-        </li>
-        <li class="list">
-          <span>
-            <svg aria-hidden="true" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4.5 12.75l6 6 9-13.5" stroke-linejoin="round" stroke-linecap="round"></path>
-            </svg>
-          </span>
-          <p>
-            1000+ components
-          </p>
-        </li>
-        <li class="list">
-          <span>
-            <svg aria-hidden="true" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4.5 12.75l6 6 9-13.5" stroke-linejoin="round" stroke-linecap="round"></path>
-            </svg>
-          </span>
-          <p>
-           1 month free updates
-          </p>
-        </li>
-        <li class="list">
-          <span>
-            <svg aria-hidden="true" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4.5 12.75l6 6 9-13.5" stroke-linejoin="round" stroke-linecap="round"></path>
-            </svg>
-          </span>
-          <p>
-            Life time technical support
-          </p>
-        </li>
-      </ul>
-    </div>
-    <div class="button-container">
-      <button type="button">
-        Buy Now
-      </button>
-    </div>
+    <h1 class="text-pack" align="center" style="font-family: monospace; text-transform: uppercase;">Package</h1>
   </div>
+<div class="grid-price">
+  <div class="card-price" v-for="(price, index) in data_package" :key="index">
+  <p class="price-price">
+    ฿ {{price.price}}
+  </p>
+  <ul class="lists">
+    <li class="list">
+      <svg  fill="none" viewBox="0 0 24 24"><g stroke-width="0" id="SVGRepo_bgCarrier"></g><g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"> <path fill="#ffffff" d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z" clip-rule="evenodd" fill-rule="evenodd"></path> </g></svg>
+      <span>Key can use any Course </span>
+    </li>
+    <li class="list">
+      <svg  fill="none" viewBox="0 0 24 24"><g stroke-width="0" id="SVGRepo_bgCarrier"></g><g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"> <path fill="#ffffff" d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z" clip-rule="evenodd" fill-rule="evenodd"></path> </g></svg>
+        <span> {{ price.day }} Day Before Expire</span>
+    </li>
+    <li class="list">
+      <svg  fill="none" viewBox="0 0 24 24"><g stroke-width="0" id="SVGRepo_bgCarrier"></g><g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"> <path fill="#ffffff" d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z" clip-rule="evenodd" fill-rule="evenodd"></path> </g></svg>
+      <span> {{ price.description1 }} </span>
+    </li>
+  </ul>
+  <button @click="alert_fn()" class="action" style="text-decoration: none;">
+    Get Keys
+  </button>
 </div>
+</div>
+
 </template>
 
 <style>
 .grid-price{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  background-color:0;
   justify-content: space-between;
+  grid-gap: 5rem;
+  padding: 5rem;
 }
 
-.pack-container {
-  position: relative;
+.card-price {
+  max-width: 320px;
   display: flex;
-  max-width: 350px;
   flex-direction: column;
-  border-radius: 12px;
-  background-color: #212121;
-  border: 1px solid #ffa601;
-  padding: 1.6rem;
-  color: #fff;
-  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-  justify-content:space-between;
-  margin: 50px 50px;
+  border-radius: 1.5rem;
+  background-color: rgb(36, 36, 36);
+  padding: 1.5rem;
 }
 
-.header {
-  position: relative;
-  margin: 0;
-  margin-bottom: 2rem;
-  overflow: hidden;
-  border-radius: 0;
-  border-bottom: 1px solid #fff;
-  background: transparent;
-  padding-bottom: 1rem;
-  text-align: center;
-}
-
-.title-price {
-  display: block;
-  font-family: sans-serif;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  text-transform: uppercase;
-  color: #fff
-}
-
-.price-container {
-  margin-top: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 4px;
-  font-family: sans-serif;
-  font-size: 2.85rem;
+.price-price {
+  font-size: 3rem;
   line-height: 1;
-}
-
-.price-container span:first-child {
-  margin-top: 10px;
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
-.price-container span:last-child {
-  align-self: flex-end;
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+  font-weight: 300;
+  letter-spacing: -0.025em;
+  color: #ffa601;
 }
 
 .lists {
+  margin-top: 2.5rem;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  grid-row-gap: 0.75rem;
+  row-gap: 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: rgba(255, 255, 255, 1);
 }
 
 .list {
   display: flex;
   align-items: center;
-  gap: 10px;
+}
+
+.list svg {
+  height: 1rem;
+  width: 1rem;
 }
 
 .list span {
-  border-radius: 50%;
-  border: 1px solid rgba(255, 255, 255, 0.24);
-  background-color: rgba(255, 255, 255, 0.185);
-  height: 30px;
-  width: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-left: 1rem;
 }
 
-.list span svg {
-  height: 12px;
-  width: 12px;
-}
-
-.list p {
-  display: block;
-  font-family: sans-serif;
-}
-
-.button-container {
-  margin-top: 20px;
-  padding: 0;
-}
-
-.button-container button {
-  display: block;
+.action {
+  margin-top: 2rem;
   width: 100%;
-  background-color: #ffa601;
-  padding: 10px 20px;
-  text-transform: uppercase;
-  color: #000;
-  outline: 0;
-  border: 0;
-  border-radius: 10px;
-  font-weight: bold;
+  border: 2px solid  rgba(255, 255, 255, 1);
+  border-radius: 9999px;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 0.625rem 1.5rem;
+  text-align: center;
+  font-size: 0.975rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 1);
+  outline: none;
+  transition: all .2s ease;
+}
+
+.action:hover {
+  color: #ffa601;
+  background-color: transparent;
+}
+
+/** */
+.text-pack{
+  color: #ffa601;
+  text-align: center;
+  font-weight: bold ; 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+  text-decoration: underline;
+  margin: 0 auto;
+}
+*{
+ font-family: 'IBM Plex Sans Thai', sans-serif;  
+}
+@media screen and (max-width: 1400px) {
+ .grid-price{
+  grid-template-columns: repeat(3, 1fr);
+  } 
+}
+@media screen and (max-width: 1100px) {
+ .grid-price{
+  grid-template-columns: repeat(2, 1fr);
+  } 
+}
+@media screen and (max-width: 750px) {
+ .grid-price{
+  grid-template-columns: repeat(1, 1fr);
+  } 
 }
 </style>
 

@@ -39,7 +39,6 @@
             <h4 class="datail-text-preview">"Get active and stay healthy with our Exercise Courses!"</h4>
         </div>
     </div> <br>
-    <hr class="line">
 </div> <br> 
 </template>
 <script setup>

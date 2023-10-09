@@ -2,6 +2,7 @@
 import cardCourse from '@/views/cardCourse.vue'
 import ShowCase from '@/components/ShowCase.vue'
 import Carousel from '@/components/Carousel.vue'
+import contact_info from '@/components/Contact_info.vue'
 
 import('../assets/font.css')
 
@@ -21,20 +22,17 @@ import('../assets/font.css')
     </div>
     <div class="container">
       <ShowCase/>
-      <div class="box">
+      <div>
       <cardCourse/> <br>
       </div>
       <!--<RouterLink to="/">Home</RouterLink>
       <RouterLink to="/about">About</RouterLink>-->
+      <contact_info/>
     </div>
     </template>
 <style>
 .line{
   border: 1px solid #000000;
-}
-.bo{
-  padding: 20px;
-  justify-content: space-between;
 }
 *{
   font-family: 'IBM Plex Sans Thai', sans-serif;
