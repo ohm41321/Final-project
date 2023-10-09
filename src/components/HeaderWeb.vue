@@ -2,10 +2,10 @@
 import { RouterLink } from 'vue-router';
 </script>
 <template>
-<div style="margin: 0px 0px; background-color:#212121;">
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom" style="margin: 0px 25px;">
+<div style="margin: 6.5rem auto; background-color:#212121;">
+    <header class="fixed-header d-flex flex-wrap justify-content-center py-2 mb-4">
       <!--The Logo, Name on Header-->
-      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none" style="margin-left: 40px;">
         <img src="https://scontent.fbkk13-1.fna.fbcdn.net/v/t1.15752-9/384199760_1015394396518496_1693242854705544577_n.png?_nc_cat=107&ccb=1-7&_nc_sid=ae9488&_nc_ohc=0q9p23KnDwoAX-lGRxc&_nc_ht=scontent.fbkk13-1.fna&oh=03_AdROFy1M1RptMMbdctgWC12ndTLoeqVJU3jQAaUltZ4KMA&oe=653B4CE1" alt="" width="70" height="70"> &nbsp; &nbsp;
         <span class="fs-4" style="color: white;">Many Course</span>
       </a>
@@ -22,7 +22,7 @@ import { RouterLink } from 'vue-router';
 
 
 <RouterLink to="/dev">
-    <button class="c-button c-button--gooey" > Who Is Dev
+    <button class="c-button c-button--gooey" style="margin-right: 30px;" > Who Is Dev
       <div class="c-button__blobs">
       <div></div>
       <div></div>
@@ -36,6 +36,15 @@ import { RouterLink } from 'vue-router';
 
 <!--Style of Header, Button-->
 <style>
+.fixed-header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #212121;
+  z-index: 1000;
+}
+
 @media screen and (max-width: 550px) {
   .fs-4{
     margin-right: 200px;
@@ -131,4 +140,7 @@ import { RouterLink } from 'vue-router';
 .dropdown-toggle:not(:focus) {
   outline: 0;
 }
+
+
+
 </style>

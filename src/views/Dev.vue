@@ -154,13 +154,13 @@ const dev_data = data_store.data_dev
 }
 @keyframes chitchat {
   0% {
-    content: "#5";
+    content: "#ba";
   }
   50% {
-    content: "?2@";
+    content: "?cc";
   }
   60% {
-    content: "?{%:%";
+    content: "kk:%";
     right: 0;
   }
 
