@@ -4,7 +4,7 @@ import Dev from '../views/Dev.vue'
 import MainPage from '../views/MainPage.vue'
 import priceView from '../views/priceView.vue'
 import course from '../views/courseView.vue'
-
+import assessPage from '../views/AssessKey.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -23,6 +23,11 @@ const router = createRouter({
       path: '/purchase',
       name: 'purchase',
       component: priceView
+    },
+    {
+      path: '/assess',
+      name: 'assess',
+      component: assessPage
     },
     {
       path: '/course/:id',

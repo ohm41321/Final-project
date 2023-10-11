@@ -44,7 +44,7 @@ const data_package = data_store.packageList
       <span> {{ price.description1 }} </span>
     </li>
   </ul>
-  <button @click="alert_fn()" class="action" style="text-decoration: none;">
+  <button @click="alert_fn(price.id,price.price,price.day, price.keys_code)" class="action" style="text-decoration: none;">
     Get Keys
   </button>
 </div>

@@ -63,7 +63,7 @@
     margin: 2rem -10rem;
 }
 .grid-preview:hover{
-    transform: scale(1.15);
+    transform: scale(1.175);
 }
 .text-preview-left{
     text-align: center;

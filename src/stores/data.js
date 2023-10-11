@@ -52,38 +52,44 @@ export const dataStore = defineStore('course', () => {
         {
           id: 1,
           price: 1290,
-          day:'30',
+          day:30,
           description1:'Average 43.-/day' ,
+          keys_code:'R4G7T2Y9PQ'
         },
         {
           id: 2,
           price: 1890,
-          day:'60',
+          day:60,
           description1:'Average 945.-/day' ,
+          keys_code:'LK6J3N8H5F'
         },
         {
           id: 3,
           price: 2790,
-          day:'90',
+          day:90,
           description1:'Average 930.-/day' ,
+          keys_code:'XZ0V1M6WPD'
         },
         {
           id: 4,
           price: 3690,
-          day:'120',
+          day:120,
           description1:'Average 922.-/day' ,
+          keys_code:'Q1E2I3U5O9'
         },
         {
           id: 5,
           price: 5390,
-          day:'180',
+          day:180,
           description1:'Average 898.-/day' ,
+          keys_code:'H6K4S7A8D3'
         },
         {
           id: 6,
           price: 9990,
-          day:'365',
+          day:365,
           description1:'Average 832.-/day' ,
+          keys_code:'B9N8M7L0O2'
         },
       ]);
       

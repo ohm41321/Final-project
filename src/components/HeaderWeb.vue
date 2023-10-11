@@ -10,8 +10,19 @@ import { RouterLink } from 'vue-router';
         <span class="fs-4" style="color: white;">Many Course</span>
       </a>
 <!-- Button On Header Right Hand-->
+
+<RouterLink to="/assess">
+    <button class="c-button c-button--gooey" style="margin-right: 10px;" > Keys
+      <div class="c-button__blobs">
+      <div></div>
+      <div></div>
+      <div></div>
+      </div>
+    </button>
+</RouterLink> 
+
 <RouterLink to="/purchase">
-    <button class="c-button c-button--gooey" > Buy Key 
+    <button class="c-button c-button--gooey" > Package
       <div class="c-button__blobs">
       <div></div>
       <div></div>
