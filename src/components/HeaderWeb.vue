@@ -22,18 +22,7 @@ import { RouterLink } from 'vue-router';
 </RouterLink> 
 
 <RouterLink to="/purchase">
-    <button class="c-button c-button--gooey" > Package
-      <div class="c-button__blobs">
-      <div></div>
-      <div></div>
-      <div></div>
-      </div>
-    </button>
-</RouterLink> 
-
-
-<RouterLink to="/dev">
-    <button class="c-button c-button--gooey" style="margin-right: 30px;" > Who Is Dev
+    <button class="c-button c-button--gooey"  style="margin-right: 30px;" > Package
       <div class="c-button__blobs">
       <div></div>
       <div></div>
@@ -59,22 +48,6 @@ import { RouterLink } from 'vue-router';
   z-index: 1000;
 }
 
-@media screen and (max-width: 560px) {
-  .fs-4{
-    margin-right: 200px;
-  }
-  .navbar-ct{
-  margin: 12.2rem auto;
-}
-}
-@media screen and (max-width: 445px) {
-  .fs-4{
-    margin-right: 100px;
-  }
-  .navbar-ct{
-  margin: 12.2rem auto;
-}
-}
 
 /*  */
 .c-button {
@@ -160,7 +133,30 @@ import { RouterLink } from 'vue-router';
 .dropdown-toggle:not(:focus) {
   outline: 0;
 }
+@media screen and (max-width: 1560px) {
+  .navbar-ct{
+  margin: 7rem auto;
+}
+}
 
-
+@media screen and (max-width: 560px) {
+  .fs-4{
+    margin-right: 200px;
+  }
+  .navbar-ct{
+  margin: 12.2rem auto;
+}
+}
+@media screen and (max-width: 445px) {
+  .fs-4{
+    margin-right: 100px;
+  }
+  .navbar-ct{
+  margin: 10.3rem auto;
+}
+.c-button--gooey{
+  margin-top: -20px;
+}
+}
 
 </style>

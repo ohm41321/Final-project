@@ -32,10 +32,15 @@ const dev_data = data_store.data_dev
         </button>
       </div>   
     </div>
-    <h4 style="margin: auto 0px;">Thank for your Support </h4>
+    <h4 style="margin: auto 0px;">Thank for your Support 🙏 </h4>
 </div>
 </template>
 <style>
+
+img{
+  object-fit: cover;
+}
+
 /* grid-card-dev */
 .grid-container{
   display: grid;

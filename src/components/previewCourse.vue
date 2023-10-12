@@ -12,7 +12,7 @@
     <hr class="line">
     <div class="grid-preview">
         <div class="pic-preview">
-            <img class="pic-res-left"  src="https://scontent.fbkk13-3.fna.fbcdn.net/v/t1.15752-9/370254839_626765052964983_907053778402969971_n.png?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeEbUcLiISwxZH7_xMeNBvriuRFmVAngicS5EWZUCeCJxMghvzrLKTlJVj7Qc-9c5lAyfb3eoWHu9yhMnXHfSqTi&_nc_ohc=tgpu8OnsyFMAX_WW0Pi&_nc_ht=scontent.fbkk13-3.fna&_nc_e2o=s&oh=03_AdTUBeU__4XcvEBJsncamiCQZXUjOok_3JXE6CZ3uBTU_Q&oe=654A08C6" width="500" height="620" style="object-fit: cover;">
+            <img class="pic-res-left"  src="https://media.discordapp.net/attachments/1003582679465345034/1162055256750956654/da7ogam-f1defc35-83db-4319-9d8b-15117bcc3c94.png?ex=653a8b4b&is=6528164b&hm=f8f6a29ea649e507ff2abdb72f9d56cf5d4dd22db2edaaf5da7b5129b15fd266&=" width="600" height="620" style="object-fit: cover;">
         </div>
         <div class="text-preview-right">
             <h1 class="title-name-preview">Cooking Class</h1>

@@ -81,7 +81,6 @@ export const alertStore = defineStore('alertStore', () => {
             icon: 'success',
             title: 'Verify Complete',
             text: 'Hope you Enjoin With Us',
-            footer: '<a href=#>Home</a>'
           })
     }
 

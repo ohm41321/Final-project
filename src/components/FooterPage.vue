@@ -16,8 +16,6 @@
     </div>
 
     <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-      <li class="ms-3"><a class="" href="#"><svg class="bi" width="24" height="24"></svg>sample</a></li>
-      <li class="ms-3"><a class="" href="#"><svg class="bi" width="24" height="24"></svg>sample</a></li>
       <li class="ms-3"><a class="bt-footer-top-page" href="#">top of page</a></li>
     </ul>
   </footer>

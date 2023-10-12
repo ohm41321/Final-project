@@ -201,7 +201,7 @@ const data_course = course_store.courseList
   justify-content: center;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1450px) {
   .grid-card-course{
     grid-template-columns: repeat(3, 1fr);
   }

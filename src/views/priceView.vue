@@ -69,6 +69,11 @@ const data_package = data_store.packageList
   border-radius: 1.5rem;
   background-color: rgb(36, 36, 36);
   padding: 1.5rem;
+  transition: 1s;
+}
+
+.card-price:hover{
+  transform: scale(1.1);
 }
 
 .price-price {
@@ -150,6 +155,11 @@ const data_package = data_store.packageList
 @media screen and (max-width: 750px) {
  .grid-price{
   grid-template-columns: repeat(1, 1fr);
+  } 
+}
+@media screen and (max-width: 550px) {
+ .price-price{
+  font-size: 2rem;
   } 
 }
 </style>
